@@ -23,7 +23,7 @@ int main() {
     cout<<"n = ";
     cin>>n;
 
-    string f[100];
+    string f[n];
     cout<<"Functions: ";
     for (int i=0;i<n;i++) 
     cin>>f[i];
