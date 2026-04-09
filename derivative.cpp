@@ -32,7 +32,7 @@ int main() {
     cout<<"x = ";
     cin>>x;
 
-    double val[100];
+    double val[n];
     val[0]=x;
 
     for (int i=n-1,j=1;i>=0;i--,j++) {
