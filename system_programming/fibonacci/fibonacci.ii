@@ -1,0 +1,17 @@
+# 0 "fibonacci.cpp"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 0 "<command-line>" 2
+# 1 "fibonacci.cpp"
+# 1 "fibonacci.h" 1
+int fibonacci(int n);
+# 2 "fibonacci.cpp" 2
+
+int fibonacci(int n)
+{
+    if (n <= 1)
+        return n;
+
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}

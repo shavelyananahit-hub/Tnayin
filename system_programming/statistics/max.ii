@@ -1,0 +1,26 @@
+# 0 "max.cpp"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 0 "<command-line>" 2
+# 1 "max.cpp"
+# 1 "statistics.h" 1
+int findMin(int numbers[], int size);
+int findMax(int numbers[], int size);
+int calculateSum(int numbers[], int size);
+double calculateAverage(int sum, int size);
+void calculateStatistics(int numbers[], int size);
+# 2 "max.cpp" 2
+
+int findMax(int numbers[], int size)
+{
+    int max = numbers[0];
+
+    for (int i = 1; i < size; i++)
+    {
+        if (numbers[i] > max)
+            max = numbers[i];
+    }
+
+    return max;
+}
