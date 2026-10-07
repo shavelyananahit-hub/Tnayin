@@ -1,0 +1,2 @@
+abcd: ab.cpp ac.cpp ad.cpp myprog.cpp
+	g++ ab.cpp ac.cpp ad.cpp myprog.cpp -o abcd

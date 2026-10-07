@@ -1,0 +1,2 @@
+calculator: main.o calculator.o
+	g++ main.o calculator.o -o calculator

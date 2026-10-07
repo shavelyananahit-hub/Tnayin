@@ -1,0 +1,5 @@
+factorial: main.o get_number.o check_number.o calculate_factorial.o print_result.o
+	g++ $^ -o $@
+
+%.o: %.cpp
+	g++ -c $< -o $@

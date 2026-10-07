@@ -1,0 +1,5 @@
+abcd: ab.o ac.o ad.o myprog.o
+	g++ $^ -o $@
+
+%.o: %.cpp
+	g++ -c $< -o $@
